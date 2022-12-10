@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>781</width>
+      <height>815</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="three_one"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLineEdit" name="one_four"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLineEdit" name="one_three"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="three_four"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLineEdit" name="two_four"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="comboBox"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="three_two"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QComboBox" name="comboBox_2"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QSlider" name="horizontalSlider">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QGraphicsView" name="graphicsView"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="two_three"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="two_one"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="three_three"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLineEdit" name="one_one"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="two_two"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLineEdit" name="one_two"/>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPick_color">
+    <property name="title">
+     <string>Pick color</string>
+    </property>
+    <addaction name="actionOpen_palette"/>
+   </widget>
+   <addaction name="menuPick_color"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen_palette">
+   <property name="text">
+    <string>Open palette</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
